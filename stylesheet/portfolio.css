@@ -50,10 +50,10 @@ h1:hover {
 p {
     font-family: Lora, Rockwell Extra Bold;
     text-align: justify; /* Justify text within paragraph elements */
-    letter-spacing: 1px; /* This expands the text slightly */
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px; 
+    letter-spacing: .1vw; /* This expands the text slightly */
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw; 
 }
 
 /* Paragraph element hover effect */
@@ -182,7 +182,7 @@ footer {
     color: white; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     height: 100vh;
-    padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
+    padding-top: 2vh; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
@@ -469,19 +469,19 @@ button:hover, .form-container .btn:hover {
 
 @media screen and (min-width: 1311px) and (max-width: 1535px) {
     p {
-        font-size: 1.75vw;
+        font-size: 1vw;
     }
 }
 
 @media screen and (min-width: 1536px) and (max-width: 2269px) {
     p {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 }
 
 @media screen and (min-width: 2270px) {
     p {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 }
 
